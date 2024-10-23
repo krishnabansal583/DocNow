@@ -36,11 +36,13 @@ import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 import head from './head.png'
 import logo2 from './logo2.png'
+import create_account from './create_account.png'
 
 export const assets = {
     appointment_img,
     head,
     logo2,
+    create_account,
     group_profiles,
     chats_icon,
     verified_icon,

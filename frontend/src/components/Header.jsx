@@ -176,19 +176,19 @@ const Header = () => {
 
   return (
     <div className="relative">
-      <div className="flex flex-col md:flex-row flex-wrap bg-[#EBF4F6] px-6 md:px-10 lg:px-20">
+      <div className="flex flex-col md:flex-row flex-wrap bg-[#365486] px-6 md:px-10 lg:px-20">
         <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
-          <p className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-semibold">
+          <p className="text-3xl md:text-4xl lg:text-5xl text-gray-100 font-semibold">
           Book <br /> Your Doctor Today
           </p>
-          <div className="flex flex-col md:flex-row items-center gap-3 text-gray-700 text-base font-light">
+          <div className="flex flex-col md:flex-row items-center gap-3 text-gray-200 text-base font-light">
             <img className="w-28" src={assets.group_profiles} alt="" />
             <p>
             Discover trusted doctors and schedule your <br />appointment quickly.
             </p>
           </div>
           <a
-            className="flex items-center gap-2 bg-[#071952] px-8 py-3 rounded-full text-white text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300"
+            className="flex items-center gap-2 bg-[#DCF2F1] px-8 py-3 rounded-full text-gray-900 font-semibold text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300"
             href="#speciality"
           >
             Book Appointment <img className="w-3" src={assets.arrow_icon} alt="" />
@@ -197,7 +197,7 @@ const Header = () => {
 
         <div className="md:w-1/2 relative pl-9">
           <img
-            className="w-full md:absolute h-[450px] bottom-0"
+            className="w-full md:absolute h-[90%] bottom-0"
             src={assets.head}
             alt=""
           />
