@@ -3,18 +3,24 @@ import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
+  const navigate = useNavigate();
 
-    const navigate = useNavigate()
   return (
-    <div className="flex bg-[#365486] rounded-lg px-6 sm:px-10 md:px-10 lg:px-10 my-40 md:mx-10">
-      <div className="flex-1 py-8 sm:py-10 md:py-16 lg:py-20 lg:pl-6">
-        <div className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold text-white">
-          <p>Need a Best Doctor?</p>
+    <div className="flex flex-col md:flex-row bg-[#365486] rounded-lg px-6 sm:px-10 md:px-10 lg:px-10 my-40 md:mx-10">
+      <div className="flex-1 py-8 sm:py-10 md:py-16 lg:py-20 lg:pl-6 flex flex-col items-center md:items-start">
+        <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white text-center md:text-left">
+          <p>Need a Suitable Doctor?</p>
           <p className="mt-6 text-2xl">
             Create Your Account to get the suitable Doctors for you
           </p>
         </div>
-        <button onClick={()=>{navigate('/login'); scrollTo(0,0)}} className="bg-[#DCF2F1] text-sm sm:test-base text-gray-950 px-8 py-3 rounded-full mt-6 hover:scale-105 transition-all">
+        <button
+          onClick={() => {
+            navigate("/login");
+            scrollTo(0, 0);
+          }}
+          className="bg-[#DCF2F1] text-sm sm:text-base text-gray-950 px-8 py-3 rounded-full mt-6 hover:scale-105 transition-all"
+        >
           Create Account
         </button>
       </div>
