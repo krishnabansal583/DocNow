@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#f8fafc] text-gray-800 py-5">
+    <footer className="bg-[#f8fafc] text-gray-800 py-8">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-8">
           <div className="flex-1">
