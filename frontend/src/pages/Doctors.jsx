@@ -63,7 +63,7 @@ const Doctors = () => {
         {filterDoc.slice(0, visible).map((item, index) => (
           <div
             onClick={() => navigate(`/appointment/${item._id}`)}
-            className="border bg-white border-gray-200 shadow-md rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300"
+            className="border bg-white border-gray-200 shadow-md rounded-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-shadow duration-300"
             key={index}
           >
             <div className="w-full h-72 bg-[#EBF4F6]">
