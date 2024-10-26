@@ -4,16 +4,16 @@ import { assets } from "../assets/assets";
 const About = () => {
   return (
     <div className="bg-gray-50 py-12 mb-40">
-      {/* Title Section */}
+      
       <div className="text-center mb-12">
         <h2 className="text-4xl font-extrabold text-gray-800">
           ABOUT <span className="text-blue-600">US</span>
         </h2>
       </div>
 
-      {/* Main Content Section */}
+    
       <div className="container mx-auto flex flex-col md:flex-row gap-12 px-6 md:px-0">
-        {/* Image Section */}
+       
         <div className="flex-1 flex justify-center items-center">
           <img
             className="w-full md:max-w-md rounded-lg shadow-lg"
@@ -21,8 +21,7 @@ const About = () => {
             alt="About DocNow"
           />
         </div>
-
-        {/* Description Section */}
+  
         <div className="flex-1 flex flex-col mr-4 justify-center space-y-6 text-gray-700">
           <p className="text-lg leading-relaxed">
             Welcome to <span className="font-semibold">DocNow</span>, where we
@@ -50,13 +49,11 @@ const About = () => {
         </div>
       </div>
 
-      {/* Key Functionalities Section */}
       <div className="container mx-auto mt-16">
         <h2 className="text-2xl text-center font-semibold text-gray-800 mb-8">
           Key <span className="text-blue-600">FUNCTIONALITIES</span>
         </h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-10 md:px-0 m-3">
-          {/* Functionality 1 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               User-Friendly Interface
@@ -66,8 +63,7 @@ const About = () => {
               search for doctors, and book appointments without hassle.
             </p>
           </div>
-          
-          {/* Functionality 2 */}
+  
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               Comprehensive Doctor Profiles
@@ -78,7 +74,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Functionality 3 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               Appointment Reminders
@@ -89,7 +84,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Functionality 4 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               Secure Messaging
@@ -100,7 +94,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Functionality 5 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               Flexible Payment Options
@@ -111,7 +104,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Functionality 6 */}
           <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               Patient Reviews
@@ -124,7 +116,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Testimonials Section */}
       <div className="container mx-auto mt-16">
         <h2 className="text-2xl text-center font-semibold text-gray-800 mb-8">
           What Our Users Say
