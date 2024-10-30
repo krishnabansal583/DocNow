@@ -7,7 +7,7 @@ const MyAppointments = () => {
   const { doctors } = useContext(AppContext);
 
   return (
-    <div className="p-6 mt-10 max-w-4xl mx-auto bg-white rounded-lg shadow-lg mb-40">
+    <div className="p-6 mt-10 max-w-4xl mx-auto bg-white rounded-lg shadow-xl mb-40">
       <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b pb-4">
         My Appointments
       </h2>

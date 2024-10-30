@@ -49,7 +49,7 @@ const Doctors = () => {
           onChange={handleSpecialityChange}
           value={selectedSpeciality}
         >
-          <option value="">All Specialties</option>
+          <option value="">All Specialities</option>
           <option value="General physician">General Physician</option>
           <option value="Gynecologist">Gynecologist</option>
           <option value="Dermatologist">Dermatologist</option>

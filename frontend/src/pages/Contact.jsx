@@ -94,7 +94,7 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className="text-center space-x-6 text-gray-600">
-          <p className="text-xl font-semibold">Follow Us</p>
+          <p className="text-xl mb-2 font-semibold">Follow Us</p>
           <a
             href="https://facebook.com"
             className="hover:text-blue-600 transition duration-200"
